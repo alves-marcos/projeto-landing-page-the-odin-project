@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 25px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #1F2937;
+}
+
+.div-cima{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;        
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;    
+    gap: 20px;
+}
+
+.information-header{
+    display: flex;
+    flex-direction: column;
+}
