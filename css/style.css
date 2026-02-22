@@ -1,33 +1,149 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-img{
-    width: 25px;
+img {
+  width: 25px;
 }
 
-.cabecalho{
-    display: flex;
-    flex-direction: column;
-    
-    background-color: #1F2937;
+.cabecalho {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  padding: 20px;
 }
 
-.div-cima{
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;        
+.div-cima {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 50px 0px 50px;
 }
 
-.logo{
-    display: flex;
-    flex-direction: row;    
-    gap: 20px;
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
 
-.information-header{
-    display: flex;
-    flex-direction: column;
+.button-cabecalho {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.button-cabecalho a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.information-header {
+  display: flex;
+  margin: 50px 50px 0px 95px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.information-project {
+  color: white;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+}
+
+.information-project h2 {
+  font-size: 48px;
+}
+
+.img-header-header {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.button-sing {
+  width: 100px;
+  padding: 10px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.meio-pagina {
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-meio {
+  display: flex;
+  flex-direction: row;
+  gap: 98px;
+}
+
+.list-meio img {
+  width: 150px;
+  height: 100px;
+}
+.list-meio li {
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  border: 5px solid #1f2937;
+  width: 200px;
+  height: 220px;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.meio-pagina h2 {
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+
+.information {
+  background-color: #e5e7eb;
+  padding: 100px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.registro{
+  display: flex;
+  justify-content: space-between;
+  background-color:#3882f6;
+  margin: 100px 300px 100px 300px;
+  padding: 50px;
+  color: white;
+  border-radius: 10px;
+}
+
+.button-sing-end {
+  width: 100px;
+  padding: 10px;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  border-color: white;  
+}
+
+footer{
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
